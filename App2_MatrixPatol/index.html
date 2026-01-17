@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoCracks - Análise Matricial</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Fira+Code:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📉</text></svg>">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>📉 MatrixPatol</h1>
+            <p>Diagnóstico de Patologias via Álgebra Linear</p>
+            <span class="badge">Método: Produto Interno do Traço</span>
+        </header>
+
+        <main class="card">
+
+            <div class="canvas-area">
+                <p class="instruction">Desenhe a fissura abaixo:</p>
+                <canvas id="fissura-canvas" width="200" height="200"></canvas>
+
+                <div class="controls">
+                    <button id="btn-limpar" class="btn-outline">Limpar Desenho</button>
+                    <button id="btn-analisar" class="btn-primary">Analisar Padrão</button>
+                </div>
+            </div>
+
+            <div id="resultado" class="hidden">
+                <div class="diagnosis-box">
+                    <h3>Padrão Identificado:</h3>
+                    <h2 id="tipo-fissura">--</h2>
+                    <p id="causa-provavel">Aguardando análise...</p>
+                </div>
+
+                <div class="math-details">
+                    <h4>Cálculo de Similaridade (Traço):</h4>
+                    <p>Comparando Matriz Entrada (A) com Base de Dados (B):</p>
+                    <ul id="lista-scores">
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+
+        <section class="database-preview">
+            <h3>Banco de Dados de Matrizes (B)</h3>
+            <div class="matrices-grid">
+                <div class="matrix-item">
+                    <div class="mini-box vertical"></div>
+                    <span>Vertical</span>
+                </div>
+                <div class="matrix-item">
+                    <div class="mini-box horizontal"></div>
+                    <span>Horizontal</span>
+                </div>
+                <div class="matrix-item">
+                    <div class="mini-box diagonal"></div>
+                    <span>Diagonal</span>
+                </div>
+                <div class="matrix-item">
+                    <div class="mini-box cruzada"></div>
+                    <span>Cruzada</span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Aplicação de Matrizes em Engenharia Civil</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
