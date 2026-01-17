@@ -67,7 +67,7 @@ Sistema de visão computacional simplificada para classificação de patologias 
 
 1.  Clone este repositório:
     ```bash
-    git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+    git clone [https://github.com/alicesilv4/ProjetoAL.git](https://github.com/alicesilv4/ProjetoAL.git)
     ```
 2.  Navegue até a pasta do projeto desejado (`App1...` ou `App2...`).
 3.  Abra o arquivo `index.html` no seu navegador de preferência.
