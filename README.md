@@ -18,7 +18,7 @@ Você pode testar as aplicações diretamente pelo navegador através dos links 
 
 | Aplicação | Descrição | Link de Acesso |
 | :--- | :--- | :--- |
-| **App 1** | 🧱 Estimador de Material (Alvenaria) | [**Acessar App 1**](https://alicesilv4.github.io/ProjetoAL/App1_EstimadorMaterial/) |
+| **App 1** | 🧱 Estimador de Material (Alvenaria) | [**Acessar App 1**](https://alicesilv4.github.io/App1_EstimadorMaterial/) |
 | **App 2** | 📉 MatrixPatol (Análise de Fissuras) | [**Acessar App 2**](https://alicesilv4.github.io/ProjetoAL/App2_MatrixPatol/) |
 
 ---
