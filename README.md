@@ -1,6 +1,6 @@
-# ProjetoAL(Algebra Linear)
+# ProjetoAL(Álgebra Linear)
 
-# 🏗️ Civil Engineering & Linear Algebra Apps
+# 🏗️ Engenharia Civil & Álgebra Linear Apps
 
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![Tecnologia](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JS-blue)
@@ -18,10 +18,8 @@ Você pode testar as aplicações diretamente pelo navegador através dos links 
 
 | Aplicação | Descrição | Link de Acesso |
 | :--- | :--- | :--- |
-| **App 1** | 🧱 Estimador de Material (Alvenaria) | [**Acessar App 1**](https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/App1_EstimadorMaterial/) |
-| **App 2** | 📉 MatrixPatol (Análise de Fissuras) | [**Acessar App 2**](https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/App2_MatrixPatol/) |
-
-> **Nota:** *Substitua `SEU-USUARIO` e `NOME-DO-REPOSITORIO` na URL acima pelos dados reais do seu GitHub.*
+| **App 1** | 🧱 Estimador de Material (Alvenaria) | [**Acessar App 1**](https://alicesilv4.github.io/ProjetoAL/App1_EstimadorMaterial/) |
+| **App 2** | 📉 MatrixPatol (Análise de Fissuras) | [**Acessar App 2**](https://alicesilv4.github.io/ProjetoAL/App2_MatrixPatol/) |
 
 ---
 
@@ -78,7 +76,6 @@ Sistema de visão computacional simplificada para classificação de patologias 
 
 ## ✒️ Autores
 
-* **Seu Nome** - *Desenvolvimento e Documentação*
-* **(Opcional) Nome da Namorada** - *Apresentação e Pesquisa*
+* **Alice Silva** - *Desenvolvimento e Documentação*
 
 ---
